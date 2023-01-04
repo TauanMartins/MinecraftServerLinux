@@ -1,0 +1,747 @@
+[08:09:07] [Server thread/INFO]: Starting minecraft server version 1.10
+[08:09:07] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[08:09:07] [Server thread/INFO]: Loading properties
+[08:09:07] [Server thread/INFO]: Default game type: SURVIVAL
+[08:09:07] [Server thread/INFO]: Generating keypair
+[08:09:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 03, 2023 8:09:08 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[08:09:08] [Server thread/INFO]: Using default channel type
+[08:09:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:09:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:09:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:09:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:09:08] [Server thread/INFO]: Preparing level "world"
+[08:09:08] [Server thread/INFO]: Preparing start region for level 0
+[08:09:09] [Server thread/INFO]: Preparing spawn area: 2%
+[08:09:10] [Server thread/INFO]: Preparing spawn area: 61%
+[08:09:11] [Server thread/INFO]: Done (3.002s)! For help, type "help" or "?"
+[08:09:32] [Server thread/INFO]: Tauan[/177.203.202.137:59179] logged in with entity id 269 at (28.9089053662752, 68.0, 270.7765052097071)
+[08:09:32] [Server thread/INFO]: Tauan joined the game
+[08:09:57] [Server thread/INFO]: Tauan was shot by Skeleton
+[08:10:31] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[08:10:31] [Server thread/INFO]: Tauan left the game
+./start.sh: line 3:  1134 Killed                  java -Xmx756M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+[09:07:32] [Server thread/INFO]: Starting minecraft server version 1.10
+[09:07:32] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[09:07:32] [Server thread/INFO]: Loading properties
+[09:07:32] [Server thread/INFO]: Default game type: SURVIVAL
+[09:07:32] [Server thread/INFO]: Generating keypair
+[09:07:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 03, 2023 9:07:32 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[09:07:32] [Server thread/INFO]: Using default channel type
+[09:07:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:07:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:07:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:07:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:07:32] [Server thread/INFO]: Preparing level "world"
+[09:07:33] [Server thread/INFO]: Preparing start region for level 0
+[09:07:34] [Server thread/INFO]: Preparing spawn area: 2%
+[09:07:35] [Server thread/INFO]: Preparing spawn area: 56%
+[09:07:36] [Server thread/INFO]: Done (3.231s)! For help, type "help" or "?"
+[09:07:38] [Server thread/INFO]: Tauan[/177.203.202.137:59766] logged in with entity id 274 at (22.33712925693804, 68.0, 176.15307554836036)
+[09:07:38] [Server thread/INFO]: Tauan joined the game
+[09:07:54] [Server thread/INFO]: Tauan lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.net.SocketException: Connection reset], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:07:54] [Server thread/INFO]: Tauan left the game
+[09:17:24] [Server thread/INFO]: Tauan[/177.203.202.137:60028] logged in with entity id 546 at (-6.717253726687023, 71.0, 171.75466111554493)
+[09:17:24] [Server thread/INFO]: Tauan joined the game
+[09:18:01] [Server thread/WARN]: Tauan moved wrongly!
+[09:18:52] [Server thread/INFO]: Tauan has just earned the achievement [Taking Inventory]
+[09:26:49] [Server thread/INFO]: Tauan was slain by Spider
+[09:27:01] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[09:27:01] [Server thread/INFO]: Tauan left the game
+[18:48:50] [Server Shutdown Thread/INFO]: Stopping server
+2023-01-03 18:48:50,859 ERROR Attempted to append to non-started appender File
+2023-01-03 18:48:50,881 ERROR Unable to write to stream logs/latest.log for appender File
+2023-01-03 18:48:50,881 ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:109)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.write(RollingRandomAccessFileManager.java:90)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.write(OutputStreamManager.java:129)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:113)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:96)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:99)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:425)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:406)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:110)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1011)
+	at net.minecraft.server.MinecraftServer.u(SourceFile:381)
+	at net.minecraft.server.MinecraftServer$2.run(SourceFile:738)
+Caused by: java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.base/java.io.RandomAccessFile.write(RandomAccessFile.java:559)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:106)
+	... 12 more
+
+2023-01-03 18:48:50,884 ERROR Attempted to append to non-started appender ServerGuiConsole
+Exception in thread "Server Shutdown Thread" org.apache.logging.log4j.core.appender.AppenderLoggingException: Attempted to append to non-started appender ServerGuiConsole
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:425)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:406)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:110)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1011)
+	at net.minecraft.server.MinecraftServer.u(SourceFile:381)
+	at net.minecraft.server.MinecraftServer$2.run(SourceFile:738)
+[18:53:25] [Server thread/INFO]: Starting minecraft server version 1.10
+[18:53:25] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[18:53:25] [Server thread/INFO]: Loading properties
+[18:53:25] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:25] [Server thread/INFO]: Generating keypair
+[18:53:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 03, 2023 6:53:26 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:53:26] [Server thread/INFO]: Using default channel type
+[18:53:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:53:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:53:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:53:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:53:26] [Server thread/INFO]: Preparing level "world"
+[18:53:26] [Server thread/INFO]: Preparing start region for level 0
+[18:53:27] [Server thread/INFO]: Preparing spawn area: 2%
+[18:53:28] [Server thread/INFO]: Preparing spawn area: 54%
+[18:53:29] [Server thread/INFO]: Done (3.150s)! For help, type "help" or "?"
+[18:55:47] [Server thread/INFO]: Tauan[/177.203.202.137:64314] logged in with entity id 267 at (-38.3172797121047, 73.0, 220.01309341503142)
+[18:55:47] [Server thread/INFO]: Tauan joined the game
+[18:55:53] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[18:55:53] [Server thread/INFO]: Tauan left the game
+[18:57:16] [Server thread/INFO]: Starting minecraft server version 1.10
+[18:57:16] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[18:57:16] [Server thread/INFO]: Loading properties
+[18:57:16] [Server thread/INFO]: Default game type: SURVIVAL
+[18:57:16] [Server thread/INFO]: Generating keypair
+[18:57:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 03, 2023 6:57:16 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:57:16] [Server thread/INFO]: Using default channel type
+[18:57:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:57:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:57:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:57:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:57:16] [Server thread/INFO]: Preparing level "world"
+[18:57:17] [Server thread/INFO]: Preparing start region for level 0
+[18:57:18] [Server thread/INFO]: Preparing spawn area: 0%
+[18:57:19] [Server thread/INFO]: Preparing spawn area: 46%
+[18:57:20] [Server thread/INFO]: Done (3.161s)! For help, type "help" or "?"
+[18:59:35] [Server thread/INFO]: Tauan[/177.203.202.137:64381] logged in with entity id 267 at (-39.984037580007545, 73.0, 221.17544955412296)
+[18:59:35] [Server thread/INFO]: Tauan joined the game
+[19:01:42] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:01:42] [Server thread/INFO]: Tauan left the game
+[19:08:00] [Server thread/INFO]: Sasa_angel[/191.249.98.23:54281] logged in with entity id 2417 at (-28.5, 70.0, 246.5)
+[19:08:00] [Server thread/INFO]: Sasa_angel joined the game
+[19:08:06] [Server thread/INFO]: <Sasa_angel> oii
+[19:10:24] [Server thread/INFO]: Sasa_angel lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.net.SocketException: Connection reset], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:10:24] [Server thread/INFO]: Sasa_angel left the game
+[01:01:05] [Server thread/INFO]: Tauan[/177.203.202.137:54001] logged in with entity id 4019 at (-5.280682989067568, 71.0, 174.36420059666622)
+[01:01:05] [Server thread/INFO]: Tauan joined the game
+[01:01:46] [Server thread/INFO]: Tauan has just earned the achievement [Getting Wood]
+[01:05:18] [Server thread/INFO]: Tauan has just earned the achievement [Benchmarking]
+[01:06:42] [Server thread/INFO]: Tauan has just earned the achievement [Time to Mine!]
+[01:07:48] [Server thread/INFO]: Tauan has just earned the achievement [Getting an Upgrade]
+[01:07:53] [Server thread/INFO]: Tauan has just earned the achievement [Hot Topic]
+[01:07:58] [Server thread/INFO]: Tauan has just earned the achievement [Time to Strike!]
+[01:11:34] [Server thread/INFO]: Tauan has just earned the achievement [Monster Hunter]
+[01:12:58] [Server thread/INFO]: Tauan has just earned the achievement [Cow Tipper]
+[01:32:07] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[01:32:07] [Server thread/INFO]: Tauan left the game
+[02:07:03] [Server thread/INFO]: tiagobnm[/179.255.166.171:51628] logged in with entity id 53504 at (-29.5, 70.0, 251.5)
+[02:07:03] [Server thread/INFO]: tiagobnm joined the game
+[02:08:22] [Server thread/INFO]: tiagobnm has just earned the achievement [Taking Inventory]
+[02:10:07] [Server thread/INFO]: tiagobnm lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[02:10:07] [Server thread/INFO]: tiagobnm left the game
+[02:43:00] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3671ms behind, skipping 73 tick(s)
+[02:44:41] [Server Watchdog/FATAL]: A single server tick took 60.28 seconds (should be max 0.05)
+[02:44:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 50111ms behind, skipping 1002 tick(s)
+[02:44:41] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[02:44:41] [Server Watchdog/ERROR]: This crash report has been saved to: /home/ubuntu/McServerV1.10/./crash-reports/crash-2023-01-04_02.44.41-server.txt
+[02:44:41] [Server Shutdown Thread/INFO]: Stopping server
+2023-01-04 02:44:41,558 ERROR Attempted to append to non-started appender File
+2023-01-04 02:44:41,560 ERROR Unable to write to stream logs/latest.log for appender File
+2023-01-04 02:44:41,560 ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:109)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.write(RollingRandomAccessFileManager.java:90)
+	at org.apache.logging.log4j.core.appender.OutputStreamManager.write(OutputStreamManager.java:129)
+	at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:113)
+	at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:96)
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:99)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:425)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:406)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:110)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1011)
+	at net.minecraft.server.MinecraftServer.u(SourceFile:381)
+	at net.minecraft.server.MinecraftServer$2.run(SourceFile:738)
+Caused by: java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.base/java.io.RandomAccessFile.write(RandomAccessFile.java:559)
+	at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:106)
+	... 12 more
+
+2023-01-04 02:44:41,576 ERROR Attempted to append to non-started appender ServerGuiConsole
+Exception in thread "Server Shutdown Thread" org.apache.logging.log4j.core.appender.AppenderLoggingException: Attempted to append to non-started appender ServerGuiConsole
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89)
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:425)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:406)
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:367)
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:110)
+	at org.apache.logging.log4j.spi.AbstractLogger.info(AbstractLogger.java:1011)
+	at net.minecraft.server.MinecraftServer.u(SourceFile:381)
+	at net.minecraft.server.MinecraftServer$2.run(SourceFile:738)
+[05:01:16] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:01:16] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:01:16] [Server thread/INFO]: Loading properties
+[05:01:16] [Server thread/INFO]: Default game type: SURVIVAL
+[05:01:16] [Server thread/INFO]: Generating keypair
+[05:01:17] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:01:17 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:01:17] [Server thread/INFO]: Using default channel type
+[05:01:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:01:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:01:17] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:01:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:01:17] [Server thread/INFO]: Preparing level "world"
+[05:01:17] [Server thread/INFO]: Preparing start region for level 0
+[05:01:18] [Server thread/INFO]: Preparing spawn area: 1%
+[05:01:19] [Server thread/INFO]: Preparing spawn area: 39%
+[05:01:20] [Server thread/INFO]: Done (3.208s)! For help, type "help" or "?"
+[05:07:06] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:07:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:07:06] [Server thread/INFO]: Loading properties
+[05:07:06] [Server thread/INFO]: Default game type: SURVIVAL
+[05:07:06] [Server thread/INFO]: Generating keypair
+[05:07:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:07:07 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:07:07] [Server thread/INFO]: Using default channel type
+[05:07:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:07:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:07:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:07:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:07:07] [Server thread/INFO]: Preparing level "world"
+[05:07:07] [Server thread/INFO]: Preparing start region for level 0
+[05:07:08] [Server thread/INFO]: Preparing spawn area: 2%
+[05:07:09] [Server thread/INFO]: Preparing spawn area: 60%
+[05:07:10] [Server thread/INFO]: Done (2.928s)! For help, type "help" or "?"
+./start.sh: line 3:  1138 Killed                  java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+Process 1136 dead!
+Process 1136 detected
+[05:08:35] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:08:35] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:08:35] [Server thread/INFO]: Loading properties
+[05:08:35] [Server thread/INFO]: Default game type: SURVIVAL
+[05:08:35] [Server thread/INFO]: Generating keypair
+[05:08:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:08:35 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:08:35] [Server thread/INFO]: Using default channel type
+[05:08:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:08:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:08:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:08:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:08:36] [Server thread/INFO]: Preparing level "world"
+[05:08:36] [Server thread/INFO]: Preparing start region for level 0
+[05:08:37] [Server thread/INFO]: Preparing spawn area: 1%
+[05:08:38] [Server thread/INFO]: Preparing spawn area: 54%
+[05:08:39] [Server thread/INFO]: Done (3.008s)! For help, type "help" or "?"
+./start.sh: line 3:  1177 Killed                  java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+Process 1175 dead!
+Process 1175 detected
+Error: You must specify a target process
+CPUlimit version 2.4
+Usage: cpulimit TARGET [OPTIONS...] [-- PROGRAM]
+   TARGET must be exactly one of these:
+      -p, --pid=N        pid of the process
+      -e, --exe=FILE     name of the executable program file
+                         The -e option only works when
+                         cpulimit is run with admin rights.
+      -P, --path=PATH    absolute path name of the
+                         executable program file
+   OPTIONS
+      -b  --background   run in background
+      -f  --foreground   launch target process in foreground and wait for it to exit
+      -c  --cpu=N        override the detection of CPUs on the machine.
+      -l, --limit=N      percentage of cpu allowed from 1 up.
+                         Usually 1 - 100, but can be higher
+                         on multi-core CPUs (mandatory)
+      -m, --monitor-forks  Watch children/forks of the target process
+      -q, --quiet        run in quiet mode (only print errors).
+      -k, --kill         kill processes going over their limit
+                         instead of just throttling them.
+      -r, --restore      Restore processes after they have
+                         been killed. Works with the -k flag.
+      -s, --signal=SIG   Send this signal to the watched process when cpulimit exits.
+                         Signal should be specificed as a number or 
+                         SIGTERM, SIGCONT, SIGSTOP, etc. SIGCONT is the default.
+      -v, --verbose      show control statistics
+      -z, --lazy         exit if there is no suitable target process,
+                         or if it dies
+          --             This is the final CPUlimit option. All following
+                         options are for another program we will launch.
+      -h, --help         display this help and exit
+Error: You must specify a target process
+CPUlimit version 2.4
+Usage: cpulimit TARGET [OPTIONS...] [-- PROGRAM]
+   TARGET must be exactly one of these:
+      -p, --pid=N        pid of the process
+      -e, --exe=FILE     name of the executable program file
+                         The -e option only works when
+                         cpulimit is run with admin rights.
+      -P, --path=PATH    absolute path name of the
+                         executable program file
+   OPTIONS
+      -b  --background   run in background
+      -f  --foreground   launch target process in foreground and wait for it to exit
+      -c  --cpu=N        override the detection of CPUs on the machine.
+      -l, --limit=N      percentage of cpu allowed from 1 up.
+                         Usually 1 - 100, but can be higher
+                         on multi-core CPUs (mandatory)
+      -m, --monitor-forks  Watch children/forks of the target process
+      -q, --quiet        run in quiet mode (only print errors).
+      -k, --kill         kill processes going over their limit
+                         instead of just throttling them.
+      -r, --restore      Restore processes after they have
+                         been killed. Works with the -k flag.
+      -s, --signal=SIG   Send this signal to the watched process when cpulimit exits.
+                         Signal should be specificed as a number or 
+                         SIGTERM, SIGCONT, SIGSTOP, etc. SIGCONT is the default.
+      -v, --verbose      show control statistics
+      -z, --lazy         exit if there is no suitable target process,
+                         or if it dies
+          --             This is the final CPUlimit option. All following
+                         options are for another program we will launch.
+      -h, --help         display this help and exit
+Error: You must specify a target process
+CPUlimit version 2.4
+Usage: cpulimit TARGET [OPTIONS...] [-- PROGRAM]
+   TARGET must be exactly one of these:
+      -p, --pid=N        pid of the process
+      -e, --exe=FILE     name of the executable program file
+                         The -e option only works when
+                         cpulimit is run with admin rights.
+      -P, --path=PATH    absolute path name of the
+                         executable program file
+   OPTIONS
+      -b  --background   run in background
+      -f  --foreground   launch target process in foreground and wait for it to exit
+      -c  --cpu=N        override the detection of CPUs on the machine.
+      -l, --limit=N      percentage of cpu allowed from 1 up.
+                         Usually 1 - 100, but can be higher
+                         on multi-core CPUs (mandatory)
+      -m, --monitor-forks  Watch children/forks of the target process
+      -q, --quiet        run in quiet mode (only print errors).
+      -k, --kill         kill processes going over their limit
+                         instead of just throttling them.
+      -r, --restore      Restore processes after they have
+                         been killed. Works with the -k flag.
+      -s, --signal=SIG   Send this signal to the watched process when cpulimit exits.
+                         Signal should be specificed as a number or 
+                         SIGTERM, SIGCONT, SIGSTOP, etc. SIGCONT is the default.
+      -v, --verbose      show control statistics
+      -z, --lazy         exit if there is no suitable target process,
+                         or if it dies
+          --             This is the final CPUlimit option. All following
+                         options are for another program we will launch.
+      -h, --help         display this help and exit
+[05:17:51] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:17:51] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:17:51] [Server thread/INFO]: Loading properties
+[05:17:51] [Server thread/INFO]: Default game type: SURVIVAL
+[05:17:51] [Server thread/INFO]: Generating keypair
+[05:17:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:17:52 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:17:52] [Server thread/INFO]: Using default channel type
+[05:17:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:17:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:17:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:17:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:17:53] [Server thread/INFO]: Preparing level "world"
+[05:17:54] [Server thread/INFO]: Preparing start region for level 0
+[05:17:58] [Server thread/INFO]: Preparing spawn area: 0%
+[05:17:59] [Server thread/INFO]: Preparing spawn area: 3%
+[05:18:01] [Server thread/INFO]: Preparing spawn area: 6%
+[05:18:02] [Server thread/INFO]: Preparing spawn area: 15%
+[05:18:03] [Server thread/INFO]: Preparing spawn area: 29%
+[05:18:04] [Server thread/INFO]: Preparing spawn area: 50%
+[05:18:05] [Server thread/INFO]: Preparing spawn area: 75%
+[05:18:06] [Server thread/INFO]: Preparing spawn area: 91%
+[05:18:06] [Server thread/INFO]: Done (13.399s)! For help, type "help" or "?"
+./start.sh: line 3:  1374 Killed                  java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+Warning: no target process found. Waiting for it...
+[05:19:32] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:19:32] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:19:32] [Server thread/INFO]: Loading properties
+[05:19:32] [Server thread/INFO]: Default game type: SURVIVAL
+[05:19:32] [Server thread/INFO]: Generating keypair
+[05:19:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:19:32 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:19:32] [Server thread/INFO]: Using default channel type
+[05:19:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:19:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:19:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:19:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:19:33] [Server thread/INFO]: Preparing level "world"
+[05:19:33] [Server thread/INFO]: Preparing start region for level 0
+[05:19:34] [Server thread/INFO]: Preparing spawn area: 1%
+[05:19:35] [Server thread/INFO]: Preparing spawn area: 41%
+[05:19:36] [Server thread/INFO]: Done (3.095s)! For help, type "help" or "?"
+[05:26:06] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:26:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:26:06] [Server thread/INFO]: Loading properties
+[05:26:06] [Server thread/INFO]: Default game type: SURVIVAL
+[05:26:06] [Server thread/INFO]: Generating keypair
+[05:26:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:26:06 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:26:06] [Server thread/INFO]: Using default channel type
+[05:26:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:26:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:26:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:26:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:26:06] [Server thread/INFO]: Preparing level "world"
+[05:26:07] [Server thread/INFO]: Preparing start region for level 0
+[05:26:08] [Server thread/INFO]: Preparing spawn area: 0%
+[05:26:09] [Server thread/INFO]: Preparing spawn area: 46%
+[05:26:10] [Server thread/INFO]: Done (3.116s)! For help, type "help" or "?"
+./start.sh: line 3:  1487 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+[05:31:57] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:31:57] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:31:57] [Server thread/INFO]: Loading properties
+[05:31:57] [Server thread/INFO]: Default game type: SURVIVAL
+[05:31:57] [Server thread/INFO]: Generating keypair
+[05:31:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:31:57 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:31:57] [Server thread/INFO]: Using default channel type
+[05:31:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:31:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:31:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:31:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:31:57] [Server thread/INFO]: Preparing level "world"
+[05:31:58] [Server thread/INFO]: Preparing start region for level 0
+[05:31:59] [Server thread/INFO]: Preparing spawn area: 0%
+[05:32:00] [Server thread/INFO]: Preparing spawn area: 44%
+[05:32:01] [Server thread/INFO]: Done (3.122s)! For help, type "help" or "?"
+./start.sh: line 3:  1541 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+[05:33:00] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:33:00] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:33:01] [Server thread/INFO]: Loading properties
+[05:33:01] [Server thread/INFO]: Default game type: SURVIVAL
+[05:33:01] [Server thread/INFO]: Generating keypair
+[05:33:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:33:01 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:33:01] [Server thread/INFO]: Using default channel type
+[05:33:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:33:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:33:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:33:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:33:01] [Server thread/INFO]: Preparing level "world"
+[05:33:01] [Server thread/INFO]: Preparing start region for level 0
+[05:33:02] [Server thread/INFO]: Preparing spawn area: 1%
+[05:33:03] [Server thread/INFO]: Preparing spawn area: 53%
+[05:33:04] [Server thread/INFO]: Done (3.060s)! For help, type "help" or "?"
+./start.sh: line 3:  1583 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+[05:35:20] [Server thread/INFO]: Starting minecraft server version 1.10
+[05:35:20] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[05:35:20] [Server thread/INFO]: Loading properties
+[05:35:20] [Server thread/INFO]: Default game type: SURVIVAL
+[05:35:20] [Server thread/INFO]: Generating keypair
+[05:35:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 5:35:21 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[05:35:21] [Server thread/INFO]: Using default channel type
+[05:35:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:35:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:35:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:35:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:35:21] [Server thread/INFO]: Preparing level "world"
+[05:35:21] [Server thread/INFO]: Preparing start region for level 0
+[05:35:22] [Server thread/INFO]: Preparing spawn area: 1%
+[05:35:23] [Server thread/INFO]: Preparing spawn area: 51%
+[05:35:24] [Server thread/INFO]: Done (3.176s)! For help, type "help" or "?"
+./start.sh: line 3:  1622 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+Process 1622 dead!
+Process 1622 detected
+[06:28:21] [Server thread/INFO]: Starting minecraft server version 1.10
+[06:28:21] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[06:28:21] [Server thread/INFO]: Loading properties
+[06:28:22] [Server thread/INFO]: Default game type: SURVIVAL
+[06:28:22] [Server thread/INFO]: Generating keypair
+[06:28:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 6:28:24 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[06:28:24] [Server thread/INFO]: Using default channel type
+[06:28:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:28:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:28:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:28:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:28:25] [Server thread/INFO]: Preparing level "world"
+[06:28:29] [Server thread/INFO]: Preparing start region for level 0
+[06:28:39] [Server thread/INFO]: Preparing spawn area: 0%
+[06:28:40] [Server thread/INFO]: Preparing spawn area: 0%
+[06:28:41] [Server thread/INFO]: Preparing spawn area: 2%
+[06:28:42] [Server thread/INFO]: Preparing spawn area: 4%
+[06:28:43] [Server thread/INFO]: Preparing spawn area: 5%
+[06:28:44] [Server thread/INFO]: Preparing spawn area: 8%
+[06:28:45] [Server thread/INFO]: Preparing spawn area: 11%
+[06:28:46] [Server thread/INFO]: Preparing spawn area: 14%
+[06:28:47] [Server thread/INFO]: Preparing spawn area: 18%
+[06:28:48] [Server thread/INFO]: Preparing spawn area: 22%
+[06:28:49] [Server thread/INFO]: Preparing spawn area: 27%
+[06:28:50] [Server thread/INFO]: Preparing spawn area: 33%
+[06:28:51] [Server thread/INFO]: Preparing spawn area: 41%
+[06:28:52] [Server thread/INFO]: Preparing spawn area: 46%
+[06:28:53] [Server thread/INFO]: Preparing spawn area: 57%
+[06:28:54] [Server thread/INFO]: Preparing spawn area: 67%
+[06:28:55] [Server thread/INFO]: Preparing spawn area: 73%
+[06:28:56] [Server thread/INFO]: Preparing spawn area: 78%
+[06:28:57] [Server thread/INFO]: Preparing spawn area: 83%
+[06:28:58] [Server thread/INFO]: Preparing spawn area: 88%
+[06:28:59] [Server thread/INFO]: Preparing spawn area: 92%
+[06:29:00] [Server thread/INFO]: Preparing spawn area: 96%
+[06:29:01] [Server thread/INFO]: Done (35.750s)! For help, type "help" or "?"
+[06:29:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8002ms behind, skipping 160 tick(s)
+[06:29:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8171ms behind, skipping 163 tick(s)
+[06:30:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3759ms behind, skipping 75 tick(s)
+./start.sh: line 3:  1248 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (pt_BR.UTF-8)
+[08:17:09] [Server thread/INFO]: Starting minecraft server version 1.10
+[08:17:09] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ld$2.run(SourceFile:95) [minecraft_server.jar:?]
+[08:17:09] [Server thread/INFO]: Loading properties
+[08:17:09] [Server thread/INFO]: Default game type: SURVIVAL
+[08:17:09] [Server thread/INFO]: Generating keypair
+[08:17:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 8:17:09 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[08:17:09] [Server thread/INFO]: Using default channel type
+[08:17:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:17:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:17:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:17:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:17:09] [Server thread/INFO]: Preparing level "world"
+[08:17:10] [Server thread/INFO]: Preparing start region for level 0
+[08:17:11] [Server thread/INFO]: Preparing spawn area: 0%
+[08:17:12] [Server thread/INFO]: Preparing spawn area: 48%
+[08:17:13] [Server thread/INFO]: Done (3.060s)! For help, type "help" or "?"
+./start.sh: line 3:  2656 Killed                  nice java -Xmx600M -Xms512M -XX:+UseG1GC -jar mcserver/minecraft_server.jar nogui
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (pt_BR.UTF-8)
+[08:35:34] [Server thread/INFO]: Starting minecraft server version 1.10
+[08:35:34] [Server thread/INFO]: Loading properties
+[08:35:34] [Server thread/INFO]: Default game type: SURVIVAL
+[08:35:34] [Server thread/INFO]: Generating keypair
+[08:35:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+Jan 04, 2023 8:35:35 AM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[08:35:35] [Server thread/INFO]: Using default channel type
+[08:35:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:35:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:35:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:35:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:35:35] [Server thread/INFO]: Preparing level "world"
+[08:35:35] [Server thread/INFO]: Preparing start region for level 0
+[08:35:36] [Server thread/INFO]: Preparing spawn area: 0%
+[08:35:37] [Server thread/INFO]: Preparing spawn area: 59%
+[08:35:38] [Server thread/INFO]: Done (2.999s)! For help, type "help" or "?"
+[08:49:44] [Server thread/INFO]: Tauan[/177.203.202.137:63027] logged in with entity id 276 at (280.09599831653577, 62.07326432466507, -304.73223553131464)
+[08:49:44] [Server thread/INFO]: Tauan joined the game
+[08:49:55] [Server thread/INFO]: Tauan lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[08:49:55] [Server thread/INFO]: Tauan left the game
